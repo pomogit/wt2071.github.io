@@ -31,6 +31,10 @@ body
 {
     background-color: yellowgreen;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
 header
 {
@@ -66,4 +70,8 @@ ol
 a
 {
     text-decoration: none;
+}
+html
+{
+    height: 100%;
 }
