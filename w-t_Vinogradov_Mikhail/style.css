@@ -81,4 +81,10 @@ html
     width: 80%;
     margin: 0 auto;
 }
-.
+.center_flex
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+}
